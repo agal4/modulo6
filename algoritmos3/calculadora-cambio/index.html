@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="app.css">
+    <title>Calculadora de cambio óptimo de billetes y monedas</title>
+</head>
+<body>
+    <div class="calculator-container">
+        <div class="total-amount-container">
+            <label for="total-amount">Importe total:</label>
+            <input type="number" id="total-amount">
+        </div>
+        <div class="input-amount-container">
+            <label for="input-amount">Cantidad entregada:</label>
+        <input type="number" id="input-amount">
+        </div>
+        <div class="change-button-container">
+            <button id="change-button">Calcular</button>
+        </div>
+        <div class="result-container">
+            <h4>Cambio a devolver: </h4>
+            <ul id="result-list">
+                <!-- Result from JS -->
+            </ul>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
